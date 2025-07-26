@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>PLP Portfolio</title>
+</head>
+<body>
+<!--first page section-->
+<section id="home">
+    <!--nav section-->
+    <div class="desktop-nav">
+        <h1>PLP <span>Development</span></h1>
+        <div class="nav-links">
+          <ul class="main-li">
+            <li><a href="#about">Info</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contactame</a></li>
+          </ul>  
+            <ul class="trans">
+                <li><a  href="index.html">en</a></li>
+                <li>/</li>
+                <li class="selected"><a href="index-es.html">es</a></li>
+                <li>/</li>
+                <li><a href="index-ita.html">ita</a></li>
+            </ul>
+          
+        </div>
+    </div>
+
+    <!--navigation buttons-->
+    <div class="scroll-btns" id="scroll-btns">
+        <button class="btn scroll-up"><img src="img/up-arrow.png" ></button>
+        <button class="btn scroll-down"><img src="img/down-arrow.png" ></button>
+    </div>
+    
+
+    <!--Intro section-->
+    <div class="introduction">
+        <div class="img-sec">
+            <img src="img/prof-pic.jpg" alt="">
+        </div>
+        <div class="intro-sec">
+            <h3>Hola, soy</h3>
+            <h1>Pablo Liguori Porras</h1>
+            <h2>Desarrollador web</h2>
+            <div class="agen-acc">
+                <a href="https://github.com/PabloLiguoriPorras"><img src="img/github.png" class="img1"></a>
+                <a href="https://www.linkedin.com/in/pablo-liguori-porras-672972364/"><img src="img/linkedin.png" class="img2"></a>
+            </div>
+        </div>
+    </div>
+    <div class="down-arrow">
+            <a href="#about"><img src="img/down-arrow.png"></a>
+        </div>
+</section>
+
+    <!--About section-->
+    <section id="about">
+        <div class="header-a">
+            <h3>Descubre algo</h3>
+            <h1>Sobre mí</h1>
+        </div>
+            <div class="ab-sec1">
+                <div class="studies">
+                    <img src="img/graduate.png" alt="">
+                    <h1>Educación</h1>
+                    <p class="p1">Liceo Científico Nomentano</p>
+                    <p class="p2">Estudios autodidactas de HTML, CSS & JS</p>
+                </div>
+                <div class="desc">
+                    <p>Soy un estudiante en el quinto año de secundaria. He dominado HTML & CSS; cuando descubrí estos dos lenguajes sentí una conexión instantánea, así que comencé a estudiar en paralelo a la escuela. Ahora continúo mis estudios de JS para convertirme en desarrollador full stack. Si te interesa, revisa algunos de mis <a href="#projects">proyectos</a>.</p>
+                </div>
+            </div>
+            <div class="ab-sec2">
+                <div class="ski">
+                    <h1>─ Competencias ─</h1>
+                    <ul>
+                        <li>HTML | 90%<progress class="file" max="100" value="90">90%</progress></li>
+                        <li>CSS | 80%<progress class="file" max="100" value="80">80%</progress></li>
+                        <li>JS | 10%<progress class="file" max="100" value="10">10%</progress></li>
+                    </ul>
+                </div>
+                </div>
+    </section>
+
+    <!--Projects section-->
+    <section id="projects">
+        <div class="header-p">
+            <h3>Descubre</h3>
+            <h1>Mis proyectos</h1>
+            <p>Si te gustan <a href="#contact">contáctame</a></p>
+        </div>
+        <div class="cards">
+            <div class="pro1">
+                <img src="img/napsta-logo.png" alt="">
+                <h1>Busca la letra</h1>
+                <p>Un sitio minimalista que te permite buscar las letras de tus canciones favoritas.</p>
+                <a href="https://pabloliguoriporras.github.io/Napsta-Finder">Echale un vistazo</a>
+            </div>
+            <div class="pro2">
+
+            </div>
+            <div class="pro3">
+
+            </div>
+    </div>
+    </section>
+
+    <!--Contact section-->
+    <section id="contact">
+        <div class="header-c">
+            <h3>¿Quieres colaborar?</h3>
+            <h1>Contáctame</h1>
+        </div>
+        <div class="contact-cont">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h2>Envíame un correo electrónico</h2>
+            <input type="hidden" name="access_key" value="1611b5c2-edcc-4f81-a295-9e34ba90ffef">
+            <input placeholder="Escribe aquí tu nombre.." type="text" name="name" required>
+            <input placeholder="Escribe aquí tu correo electrónico.." type="email" name="email" required>
+            <textarea placeholder="Escribe aquí tu mensaje.." name="message" required></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button type="submit">Enviar mensaje</button>
+        </form>
+            <div class="socials">
+                <h2>Redes Sociales</h2>
+                <a href="https://linktr.ee/plpdevelopment">Descubre mi Link-Tree</a>
+            </div>
+        </div>
+                
+                
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2025 PLP Development | Todos los derechos reservados</p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

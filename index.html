@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>PLP Portfolio</title>
+</head>
+<body>
+<!--first page section-->
+<section id="home">
+    <!--nav section-->
+    <div class="desktop-nav">
+        <h1>PLP <span>Development</span></h1>
+        <div class="nav-links">
+          <ul class="main-li">
+            <li><a href="#about">Info</a></li>
+            <li><a href="#projects">Progetti</a></li>
+            <li><a href="#contact">Contattami</a></li>
+          </ul>  
+            <ul class="trans">
+                <li class="selected"><a  href="index.html">en</a></li>
+                <li>/</li>
+                <li><a href="index-es.html">es</a></li>
+                <li>/</li>
+                <li><a href="index-ita.html">ita</a></li>
+            </ul> 
+        </div>
+    </div>
+
+    <!--navigation buttons-->
+    <div class="scroll-btns" id="scroll-btns">
+        <button class="btn scroll-up"><img src="img/up-arrow.png" ></button>
+        <button class="btn scroll-down"><img src="img/down-arrow.png" ></button>
+    </div>
+    
+
+    <!--Intro section-->
+    <div class="introduction">
+        <div class="img-sec">
+            <img src="img/prof-pic.jpg" alt="">
+        </div>
+        <div class="intro-sec">
+            <h3>Hello I'm</h3>
+            <h1>Pablo Liguori Porras</h1>
+            <h2>Web Developer</h2>
+            <div class="agen-acc">
+                <a href="https://github.com/PabloLiguoriPorras"><img src="img/github.png" class="img1"></a>
+                <a href="https://www.linkedin.com/in/pablo-liguori-porras-672972364/"><img src="img/linkedin.png" class="img2"></a>
+            </div>
+        </div>
+    </div>
+    <div class="down-arrow">
+            <a href="#about"><img src="img/down-arrow.png"></a>
+        </div>
+</section>
+
+    <!--About section-->
+    <section id="about">
+        <div class="header-a">
+            <h3>Discover something</h3>
+            <h1>About me</h1>
+        </div>
+            <div class="ab-sec1">
+                <div class="studies">
+                    <img src="img/graduate.png" alt="">
+                    <h1>Education</h1>
+                    <p class="p1">Liceo Scientifico Nomentano</p>
+                    <p class="p2">Self driven studies of HTML, CSS & JS</p>
+                </div>
+                <div class="desc">
+                    <p>I'm a student doing the 5th year of high school. I've mastered <strong>HTML & CSS</strong>, when I discovered these two languages I instantly felt a connection, so i began to study in parallel with school. Now I'm bringing on my JS studies forwarding to become a full stack developer. If you're interested check some of my <a href="#projects">projects</a>.</p>
+                </div>
+            </div>
+            <div class="ab-sec2">
+                <div class="ski">
+                    <h1>─ Skills ─</h1>
+                    <ul>
+                        <li>HTML | 90%<progress class="file" max="100" value="90">90%</progress></li>
+                        <li>CSS | 80%<progress class="file" max="100" value="80">80%</progress></li>
+                        <li>JS | 10%<progress class="file" max="100" value="10">10%</progress></li>
+                    </ul>
+                </div>
+                </div>
+    </section>
+
+    <!--Projects section-->
+    <section id="projects">
+        <div class="header-p">
+            <h3>Check out</h3>
+            <h1>My projects</h1>
+            <p>If you like them <a href="#contact">contact me</a></p>
+        </div>
+        <div class="cards">
+            <div class="pro1">
+                <img src="img/napsta-logo.png" alt="">
+                <h1>Lyrics finder</h1>
+                <p>A minimal website that allows you to find your favourite songs' lyrics</p>
+                <a href="https://pabloliguoriporras.github.io/Napsta-Finder">Visit it</a>
+            </div>
+            <div class="pro2">
+
+            </div>
+            <div class="pro3">
+
+            </div>
+    </div>
+    </section>
+
+    <!--Contact section-->
+    <section id="contact">
+        <div class="header-c">
+            <h3>Wanna collaborate</h3>
+            <h1>Contact me</h1>
+        </div>
+        <div class="contact-cont">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h2>Email me</h2>
+            <input type="hidden" name="access_key" value="1611b5c2-edcc-4f81-a295-9e34ba90ffef">
+            <input placeholder="Enter here your name.." type="text" name="name" required>
+            <input placeholder="Enter here your email.." type="email" name="email" required>
+            <textarea placeholder="Enter here your message.." name="message" required></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button type="submit">Submit Form</button>
+        </form>
+            <div class="socials">
+                <h2>Social Medias</h2>
+                <a href="https://linktr.ee/plpdevelopment">Check out my Link-Tree</a>
+            </div>
+        </div>
+                
+                
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2025 PLP Development | All rights reserved</p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
