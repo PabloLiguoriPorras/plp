@@ -1,11 +1,10 @@
 # 🧑‍💻 Web Development Portfolio
 
-Welcome to my personal web development portfolio! I'm an 18-year-old student passionate about building modern, responsive websites. This repository includes the source code for my online portfolio, where I present my skills, projects, and contact information.
+Welcome to my personal web development portfolio! I'm a student passionate about building modern, responsive websites. This repository includes the source code for my online portfolio, where I present my skills, projects, and contact information.
 
 ## 🌐 Live Website
 
 🔗 [Visit my portfolio](https://yourusername.github.io/your-portfolio-repo)  
-*(Hosted on GitHub Pages)*
 
 ## 📁 Project Structure
 
