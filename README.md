@@ -12,7 +12,7 @@ Welcome to my personal web development portfolio! I'm a student passionate about
 ├── index.html <br> 
 ├── index-es.html <br>
 ├── index-ita.html <br>
-├── css/ <br>
+├── style/ <br>
 │ └── style.css <br>
 │ └── media.css <br>
 ├── index.js <br>
