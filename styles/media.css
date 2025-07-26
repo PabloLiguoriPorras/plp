@@ -282,6 +282,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     color: var(--text-main);
     font-size: 50px;
     margin-top: 5px;
+    text-align: center;
 }
 
 .ab-sec1
@@ -428,63 +429,6 @@ progress::-webkit-progress-value
     border-radius: 30px;
 }
 
-.ski
-{
-    width: 90%;
-    height: fit-content;
-    border-radius: 30px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
-    background-color: var(--bg2);
-    color: var(--text-main);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 0px 10px 0px;
-    margin: 0px;
-}
-
-.ski ul
-{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-}
-
-.ski li
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 50px;
-    margin-right: 50px;
-    gap: 10px;
-}
-
-progress
-{
-    width: 150px;
-    height: 15px;
-    border-radius: 30px;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
-    outline: none;
-}
-
-progress::-webkit-progress-bar 
-{
-    background-color: var(--bg);
-    border-radius: 30px;
-}
-
-progress::-webkit-progress-value 
-{
-    background-color: var(--hover);
-    border-radius: 30px;
-}
-
 #projects
 {
     background-color: var(--bg);
@@ -525,6 +469,7 @@ progress::-webkit-progress-value
     font-size: 50px;
     margin-top: 5px;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .header-p p
@@ -654,6 +599,7 @@ progress::-webkit-progress-value
     color: var(--text-main);
     font-size: 50px;
     margin-top: 5px;
+    text-align: center;
 }
 
 .contact-cont
