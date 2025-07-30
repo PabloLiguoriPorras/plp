@@ -257,10 +257,11 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 .intro-sec h1
 {
     margin: 0px;
+    font-style: oblique;
     font-size: 50px; 
     font-weight: 600;
     text-align: center;
-    color: var(--text-main);
+    color: var(--hover);
     
 }
 .intro-sec h2
@@ -427,12 +428,11 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 
 .ab-sec2
 {
-    width: 100;
+    width: 100%;
     height: 35vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     flex: 0 1 auto;
 }
 
