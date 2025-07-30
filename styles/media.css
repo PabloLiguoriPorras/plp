@@ -509,12 +509,6 @@ progress::-webkit-progress-value
     border-radius: 10px;
 }
 
-.cards h1
-{
-    width: 90%;
-    height: 10%;
-}
-
 .cards p
 {
     width: 90%;

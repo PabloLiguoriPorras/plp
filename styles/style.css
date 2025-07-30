@@ -573,12 +573,6 @@ progress::-webkit-progress-value
     background-color: var(--bg2);
 }
 
-.cards h1
-{
-    width: 90%;
-    height: 10%;
-}
-
 .cards p
 {
     width: 90%;
