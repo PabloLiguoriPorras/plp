@@ -4,7 +4,7 @@ Welcome to my personal web development portfolio! I'm a student passionate about
 
 ## 🌐 Live Website
 
-🔗 [Visit my portfolio](https://yourusername.github.io/your-portfolio-repo)  
+🔗 [Visit my portfolio](https://pabloliguoriporras.github.io/plp)  
 
 ## 📁 Project Structure
 
