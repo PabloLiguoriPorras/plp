@@ -338,7 +338,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     width: 90%;
     color: var(--text-main);
     font-size: 17px;
-    text-align: center;
+    text-align: justify;
     padding: 10px 0px 10px 0px;
     margin: auto 0px auto 0px;
 }

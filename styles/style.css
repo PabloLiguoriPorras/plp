@@ -374,6 +374,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     align-items: center;
     flex: 0 1 auto;
     background-color: var(--bg2);
+    margin: auto 0px auto 0px;
 }
 
 .studies img
@@ -402,9 +403,8 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 {   
     color: var(--text-main);
     font-size: 20px;
-    height: 200px;
-    width: 500px;
-    padding-top: 25px;
+    width: 700px;
+    text-align: justify;
 }
 
 .desc strong
