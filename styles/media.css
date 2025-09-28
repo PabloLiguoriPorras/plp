@@ -31,6 +31,7 @@ body
     font-family: 'Montserrat';
     margin: 0px;
     padding: 0px;
+    background-color: var(--bg2);
 }
 
 body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img 
@@ -54,8 +55,6 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg2);
-    border-bottom: var(--lining) 1px solid;
 }
 
 .desktop-nav h1
@@ -70,7 +69,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 .nav-links
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     flex: 0 1 auto;
@@ -84,7 +83,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     align-items: center;
     flex: 0 1 auto;
     list-style-type: none;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     width: fit-content;
 }
@@ -119,14 +118,14 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
     list-style: none;
 }
 
 
 .trans li
 {
-    margin: 0px 1.5px 0px 1.5px;
+    margin: 0px 5px 0px 5px;
     padding: 0px;
     font-size: 17px;
 }
@@ -140,7 +139,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 .trans a
 {
     font-size: 13px;
-    color: var(--text-main);
+    
     text-decoration: none;
 }
 
@@ -149,6 +148,11 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     color: var(--hover);
     text-decoration: underline;
     text-underline-offset: 3px;
+}
+
+.ver-sep
+{
+    display: none;
 }
 
 .scroll-btns
@@ -326,7 +330,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto 0px auto;
+    margin: 20px auto 20px auto;
 }
 
 .desc p
@@ -334,7 +338,7 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     width: 90%;
     color: var(--text-main);
     font-size: 17px;
-    text-align: justify;
+    text-align: start;
     padding: 10px 0px 10px 0px;
     margin: auto 0px auto 0px;
 }
@@ -763,12 +767,11 @@ form button:hover
     width: 100%;
     flex: 0 1 auto;
     height: 14vh;
-    border-top: var(--lining) 1px solid;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0px;
-    background-color: var(--bg2);
+    background-color: transparent;
 }
 
 .footer p
