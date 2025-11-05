@@ -15,7 +15,7 @@
     --bg2: hsl(0 0% 10%);
     --text-main: hsl(0 0% 100%);
     --text-sec: hsl(0 0% 95%);
-    --hover: hsl(115.4 37.1% 58.8%);
+    --hover: hsl(115, 65%, 52%);
     --lining: hsl(0 0% 0%);
     transition: background-color 0.4s, color 0.4s;
 }  
@@ -88,6 +88,13 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     width: fit-content;
 }
 
+.main-li h1, .main-li span
+{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
 .main-li li
 {
     display: flex;
@@ -100,7 +107,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 {
     text-decoration: none;
     color: var(--text-main);
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
     margin: 0px;
     font-family: 'Montserrat';
 }
@@ -127,7 +136,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 {
     margin: 0px 5px 0px 5px;
     padding: 0px;
-    font-size: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .trans li:hover
@@ -138,8 +149,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 
 .trans a
 {
-    font-size: 13px;
-    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
     text-decoration: none;
 }
 
@@ -190,8 +202,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 .intro-sec h3
 {
     margin-bottom: 10px;
-    font-size: unset;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
     text-align: center;
     color: var(--text-sec);
 }
@@ -199,8 +212,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 {
     margin: 0px;
     font-style: oblique;
-    font-size:xx-large; 
+    font-size:24px; 
     font-weight: 600;
+    line-height: 1.2;
     text-align: center;
     color: var(--hover);
     
@@ -208,8 +222,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 .intro-sec h2
 {
     margin: 0px;
-    font-weight: 600;
-    font-size: unset;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
     text-align: center;
     margin-top: 20px;
     color: var(--text-sec);
@@ -272,7 +287,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 .header-a h3
 {
     color: var(--text-sec);
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
     margin-top: 5vh;
     margin-bottom: 0px;
     font-weight: 500;
@@ -282,7 +299,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
 .header-a h1
 {
     color: var(--text-main);
-    font-size: 50px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
     text-align: center;
 }
 
@@ -318,9 +337,19 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     margin-bottom: 0px;
 }
 
+.studies h1
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
 .studies p
 {
-    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0px;
     text-align: center;
 }
 
@@ -333,11 +362,18 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     margin: 20px auto 20px auto;
 }
 
+.hi-desc
+{
+    font-size: 24px;
+}
+
 .desc p
 { 
     width: 90%;
     color: var(--text-main);
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
     text-align: start;
     padding: 10px 0px 10px 0px;
     margin: auto 0px auto 0px;
@@ -389,6 +425,13 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     margin-bottom: 10px;
 }
 
+.ski h1
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
 .ski ul
 {
     list-style: none;
@@ -408,6 +451,9 @@ body, .desktop-nav, .introduction, .nav-links ul li a, .intro-sec, .agen-acc img
     margin-right: 50px;
     gap: 10px;
     padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
 }
 
 progress
@@ -456,7 +502,9 @@ progress::-webkit-progress-value
 .header-p h3
 {
     color: var(--text-sec);
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
     margin-top: 5vh;
     margin-bottom: 0px;
     font-weight: 500;
@@ -466,7 +514,9 @@ progress::-webkit-progress-value
 .header-p h1
 {
     color: var(--text-main);
-    font-size: 50px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.25;
     margin-top: 5px;
     margin-bottom: 0px;
     text-align: center;
@@ -476,6 +526,9 @@ progress::-webkit-progress-value
 {
     margin-top: 10px;
     color: var(--text-sec);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
 }
 
 .header-p a
@@ -494,115 +547,117 @@ progress::-webkit-progress-value
 
 .cards
 {
-    height: auto;
     width: 100%;
+    height: 900px;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
-    background-color: var(--bg);
-}
-
-.cards img
-{
-    width: 300px;
-    height: 150px;
-    border-radius: 10px;
-}
-
-.cards p
-{
-    width: 90%;
-    height: fit-content;
-}
-
-.card-link
-{
-    width: 60%;
-    height: 30px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    color: var(--text-sec);
-    font-weight: 400;
-    font-size: 18px;
-    border: 0.5px solid var(--text-sec);
-    background-color: transparent;
-    text-align: center;
-}
-
-
-.cards a:hover
-{
-    color: var(--hover);
-    cursor: pointer;
-}
-
-.cards a
-{
-    background-color: transparent;
-    color: var(--text-main);
-    border-radius: 30px;
-    text-decoration: none;
-    cursor: pointer;
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-evenly;
+
 }
 
-.pro1,
-.pro2,
-.pro3
+#card
 {
-    width: 80%;
-    height: fit-content;
-    border-radius: 30px;
-    margin: 5vh auto 5vh auto;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
     background-color: var(--bg2);
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
 }
 
-.cards p
+#card:hover
 {
-    margin-top: 70%;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#card:not(:hover)
+{
+
+    transition: all 0.5s ease-in-out;
+}
+
+.f-banner
+{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(-45deg,rgba(66, 212, 53, 1) 0%, rgba(61, 102, 58, 1) 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.s-banner
+{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(45deg,rgba(138, 110, 66, 1) 0%, rgba(255, 174, 0, 1) 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid var(--bg2);
+}
+
+.t-banner
+{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(45deg,rgba(86, 53, 102, 1) 0%, rgba(208, 0, 255, 1) 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#c-text
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#c-text h2
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+#c-text a
+{
+    color: var(--bg);
+    background-color: var(--hover);
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 60%;
     text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
-.c1
+#c-text a:hover
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    width: 90%;
-    clip-path: none;
-    margin: 20px;
-    border-radius: 20px;
+    color: var(--text-main);
+    background-color: var(--bg);
+    transition: all 0.3s ease-in-out;
 }
 
-.c2
+.c-text-1 a
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    width: 90%;
-    clip-path: none;
-    margin: 20px;
-    border-radius: 20px;
+    background: linear-gradient(-90deg,rgba(66, 212, 53, 1) 0%, rgba(61, 102, 58, 1) 100%);
 }
 
-.c3
+.c-text-2 a
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    width: 90%;
-    clip-path: none;
-    margin: 20px;
-    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(138, 110, 66, 1) 0%, rgba(255, 174, 0, 1) 100%);
+}
+
+.c-text-3 a
+{
+    background: linear-gradient(90deg, rgba(86, 53, 102, 1) 0%, rgba(208, 0, 255, 1) 100%);
 }
 
 #contact
@@ -625,7 +680,9 @@ progress::-webkit-progress-value
 .header-c h3
 {
     color: var(--text-sec);
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
     margin: 5vh 0px 0px 0px;
     font-weight: 500;
 }
@@ -634,7 +691,9 @@ progress::-webkit-progress-value
 .header-c h1
 {
     color: var(--text-main);
-    font-size: 50px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
     margin-top: 5px;
     text-align: center;
 }
@@ -653,7 +712,7 @@ progress::-webkit-progress-value
 
 form
 {
-    width: 90%;
+    width: 80%;
     height: fit-content;
     border-radius: 30px;
     background-color: var(--bg2);
@@ -669,6 +728,7 @@ form
 
 form h2
 {
+    font-size: 18px;
     font-weight: 500;
     color: var(--text-main);
     text-align: center;
@@ -712,6 +772,8 @@ form button
     color: var(--text-main);
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
     margin: 0px auto 10px auto;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 form button:hover
@@ -742,6 +804,7 @@ form button:hover
 
 .socials h2
 {
+    font-size: 18px;
     font-weight: 500;
     color: var(--text-main);
     padding: 0px;
@@ -760,6 +823,8 @@ form button:hover
     background-color: var(--bg);
     color: var(--text-main);
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .footer
@@ -778,8 +843,8 @@ form button:hover
 {
     width: 100%;
     color: var(--text-main);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
 }
 
