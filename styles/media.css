@@ -15,7 +15,7 @@
     --bg2: hsl(0 0% 10%);
     --text-main: hsl(0 0% 100%);
     --text-sec: hsl(0 0% 95%);
-    --hover: hsl(115, 65%, 52%);
+    --hover: hsl(0, 100%, 42%);
     --lining: hsl(0 0% 0%);
     transition: background-color 0.4s, color 0.4s;
 }  
@@ -847,5 +847,6 @@ form button:hover
     font-weight: 400;
     text-align: center;
 }
+
 
 }
